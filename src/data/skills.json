@@ -1,0 +1,50 @@
+[  
+  {
+    "title": "HTML",
+    "imageSrc": "/image/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/image/skills/css.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "/image/skills/bootstrap.png"
+  },
+  {
+    "title": "MUI",
+    "imageSrc": "/image/skills/mui.jpg"
+  },
+  {
+    "title": "JS",
+    "imageSrc": "/image/skills/js.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/image/skills/react.png"
+  },
+  {
+    "title": "Vite",
+    "imageSrc": "/image/skills/vitepng.png"
+  },
+  {
+    "title": "React Bootstrap",
+    "imageSrc": "/image/skills/react-boot.png"
+  },
+  {
+    "title": "i18next",
+    "imageSrc": "/image/skills/i18n.png"
+  },
+  {
+    "title": "Redux",
+    "imageSrc": "/image/skills/redux.png"
+  },
+  {
+    "title": "JAVA",
+    "imageSrc": "/image/skills/java.png"
+  },
+  {
+    "title": "PS",
+    "imageSrc": "/image/skills/ps.png"
+  }
+]

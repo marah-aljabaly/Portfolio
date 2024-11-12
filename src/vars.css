@@ -1,0 +1,22 @@
+.App.dark {
+  --color-bg:#14213d;
+  --color-text: #ffffff;
+  --color-secondary: #fca311;
+  --color-primary: #f9f7f3;
+  --color-gray: #e5e5e5;
+  --color-dark: #081931;
+
+  /* Fonts */
+  --font-roboto: "san-serif";
+}
+
+.App.light{
+  --color-bg:#ffffff;
+  --color-text: #03045e;
+  --color-secondary: #fca311;
+  --color-primary: #023e8a;
+  --color-gray: #e5e5e5;
+  --color-dark: #fcefb4;
+  
+  --font-roboto: "san-serif";
+}

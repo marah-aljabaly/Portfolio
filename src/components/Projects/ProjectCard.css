@@ -1,0 +1,102 @@
+@import "../../vars.css";
+
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.image-container{
+  width: 350px;
+}
+.image {
+  margin-bottom: 26px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* .description {
+  margin-top: 6px;
+  font-size: 25px;
+  font-weight: 400;
+} */
+/* 
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 100px;
+  background: var(--color-dark);
+  padding: 2px 22px;
+} */
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-gray);
+  font-size: 20px;
+  font-weight: 600;
+} 
+.link:hover{
+  color: var(--color-secondary);
+}
+
+/* card overlay */
+.image-container {
+  position: relative;
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    180deg,
+    #08193183 10%,
+    var(--color-secondary) 300%
+  );
+  transition: 0.4s;
+  color: var(--color-text);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center; 
+ 
+} 
+.image-container:hover .overlay {
+  opacity: 1;
+}

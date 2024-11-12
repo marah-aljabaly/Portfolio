@@ -1,0 +1,76 @@
+@import "../../vars.css";
+
+/* Css for Navbar */
+.offcanvas{
+  background-color: var(--color-dark);
+}
+.nav-link {
+  font-family: 'Helvetica';
+  color: var(--color-text);
+  position: relative;  /* لوضع النقطة بالنسبة للعنصر عن حدوث هافر*/
+  cursor: pointer;
+}
+
+.nav-link::after { /*لإضافة عنصر عند الهافر بدون م اغير الكود الأصلي*/
+  content: '';
+  position: absolute;
+  bottom: -2px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;  
+  height: 8px; 
+  background-color: transparent; /* مخفي في البداية */
+  border-radius: 50%; 
+  transition: all 0.2s ease; 
+}
+
+.nav-link:hover::after {
+  background-color: var(--color-secondary); /* تظهر النقطة عند تمرير المؤشر */
+}
+
+.nav-link:hover{
+  color: var(--color-primary);
+}
+
+.logoChar{
+  font-family: 'Outfit';
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 30px;
+  color: var(--color-secondary);
+}
+
+.logo{
+  font-family: 'Helvetica';
+  color: var(--color-primary);
+  font-weight: bolder;
+  font-style: italic;
+  z-index: 5000;
+}
+
+.lang,
+.theme-icon{
+  border: 2px solid var(--color-secondary);
+  border-radius: 10px;
+  font-family: var(--font-roboto);
+  color: var(--color-primary);
+  background: transparent;
+  margin: auto;
+}
+.theme-icon{
+  color: var(--color-secondary);
+}
+.theme-icon:hover{
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+}
+
+.lang:hover{
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+}
+
+.navbar-nav:dir(rtl){
+  margin-right: auto;
+}
+

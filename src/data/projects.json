@@ -1,0 +1,34 @@
+[
+  {
+    "title": "IMDb Clone",
+    "imageSrc": "/image/projects/imdb.png",
+    "demo": "https://imdb-worknet.netlify.app/",
+    "source": "https://github.com/marah-aljabaly/IMDb-clone",
+    "description": "0.",
+    "skills": [0]
+  },
+  {
+    "title": "React E-Commerce Website",
+    "imageSrc": "/image/projects/store.png",
+    "demo": "https://full-e-commerce-marah.netlify.app/",
+    "source": "https://github.com/marah-aljabaly/React-E-Commerce-website"
+  },
+  {
+    "title": "Social Media Template",
+    "imageSrc": "/image/projects/social.png",
+    "demo": "https://social-media-template.netlify.app/",
+    "source": "https://github.com/marah-aljabaly/Social-Media-Template"
+  },
+  {
+    "title": "Age Calculator Webpage",
+    "imageSrc": "/image/projects/age.png",
+    "demo": "https://marah-aljabaly.github.io/AgeCalculator/",
+    "source": "https://github.com/marah-aljabaly/AgeCalculator"
+  },
+  {
+    "title": "Rock Paper Scissors Game",
+    "imageSrc": "/image/projects/rockGame.png",
+    "demo": "https://marah-aljabaly.github.io/RockPaperScissors/",
+    "source": "https://github.com/marah-aljabaly/RockPaperScissors"
+  }
+]

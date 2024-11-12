@@ -1,0 +1,26 @@
+[
+  {
+    "role": "FrontEnd Developer Intern",
+    "roleAr" : "متدرب تطوير واجهة أمامية",
+    "organisation": "WorkNet Company",
+    "startDate": "Jul, 2024",
+    "startDateAr": "يوليو, 2024",
+    "endDate": "Present",
+    "endDateAr": "الآن",
+    "experiences": ["HTML & HTML5","CSS & CSS3","Responive Design","JS & ES6","Bootstrap","REST API","React.js","React Bootstrap", "Styled Components","React Hook Form", "React Router Dom"],
+    "experiencesAr": ["HTML & HTML5","CSS & CSS3","Responive Design","JS & ES6","Bootstrap","REST API","React.js","React Bootstrap", "Styled Components","React Hook Form", "React Router Dom"],
+    "imageSrc": "/image/history/worknet.png"
+  },
+  {
+    "role": "FrontEnd Intern",
+    "roleAr" : "متدرب تطوير واجهة أمامية",
+    "organisation": "Manara",
+    "startDate": "Apr, 2024",
+    "startDateAr": "نيسان, 2024",
+    "endDate": "Present",
+    "endDateAr": "الآن",
+    "experiences": ["FrontEnd Engineering With React"],
+    "experiencesAr": ["هندسة الواجهة الأمامية باستخدام React"],
+    "imageSrc": "/image/history/manara.png"
+  }
+]
